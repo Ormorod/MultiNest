@@ -117,6 +117,9 @@ module cnested
 	character(len=1000) :: fnest_root
 	integer :: i, context_f
 
+	print *, "nest_mmodal: "
+	print *, nest_mmodal
+
 	fnest_root = ' '
 	do i = 1, 1000
 		if (nest_root(i) == C_NULL_CHAR) then
